@@ -1,0 +1,60 @@
+
+/* Customer Purchase Form */
+body {
+    position: relative;
+}
+
+fieldset {
+    background-color:rgb(231, 226, 214);
+    border: 2px green solid ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    margin: auto;
+    width: 50%;
+    height: 550px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+legend {
+    color:rgb(234, 3, 234);
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+label {
+    font-style: italic;
+    color: blue;
+}
+
+fieldset input, select{
+    width:60%;
+}
+div input:hover {
+    color: red;
+}
+
+button {
+    width:60px;
+    border-radius: 50%;
+    padding: 3px;
+    font-weight: bolder;
+    border: 2px red solid;
+    display: flex;
+    align-self: center;
+    color:darkblue;
+    background-color:rgb(125, 248, 2);
+}
+a {
+    text-decoration: none;
+}
+
