@@ -63,8 +63,6 @@ $(document).ready(function() {
         }
     }
 
-    displayError.style.color = 'red';
-
     function displayError(message) {
         const resultDiv = $('#result');
         resultDiv.empty();
