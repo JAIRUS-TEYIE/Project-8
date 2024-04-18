@@ -40,7 +40,7 @@ $(document).ready(function() {
             },
             error: function(jqXHR) {
                 console.error('Error: ', jqXHR.responseText);
-                displayError('Failed to fetch car details. Please try again.');
+                displayError('Sorry! model not found in our store. Try again later.');
             }
         });
     }
