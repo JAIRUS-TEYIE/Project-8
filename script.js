@@ -59,9 +59,11 @@ $(document).ready(function() {
 
             resultDiv.append(resultList);
         } else {
-            displayError('Sorry! model not found. Try again later.');
+            displayError('Sorry! Model not found. Try again later.');
         }
     }
+
+    displayError.style.color = 'red';
 
     function displayError(message) {
         const resultDiv = $('#result');
