@@ -59,7 +59,7 @@ $(document).ready(function() {
 
             resultDiv.append(resultList);
         } else {
-            displayError('No car models found for the specified query.');
+            displayError('Sorry! model not found. Try again later.');
         }
     }
 
